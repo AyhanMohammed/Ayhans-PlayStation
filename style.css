@@ -1,0 +1,65 @@
+h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Header{
+    border: solid;
+    background-color: #3a3aff;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.Games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Item{
+    text-align: center;
+}
+
+.Item:hover img{
+    opacity: 0.25;
+}
+
+.Item p{
+    opacity: 0;
+    position: relative;
+    top: -20%;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Item:hover p{
+    opacity: 1;
+}
+
+
+h2{
+    text-align: center;
+}
+
+body{
+    background-color: #41bbe0;
+}
+
+.Links{
+    margin: 10px;
+}
+
+a:visited{
+    color:#ffffff
+}
+
+a:link{
+    color: #ffffff;
+}
